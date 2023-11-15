@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+}
+
+.size100{
+    width: 100px;
+    height: 100px;
+}
+
+.bg-color{
+    background-color: blue;
+    transition: 2s;
+}
+
+.bg-color:hover{
+    background-color: darkgray;
+    border-radius: 50%;
+    transition: 2s;
+}

@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #54e1cb;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    width: 30vw;
+    height: 35vh;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    width: 30vw;
+    height: 10vh;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 0;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 0;
+}
+
+.email-input{
+    width: 20vw;
+    height: 3vh;
+    margin-top: 15px;
+}
+
+.pass-input{
+    width: 20vw;
+    height: 3vh;
+    margin-top: 25px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    width: 30vw;
+}
+
+.button{
+    background-color: #cff3ea;
+    border-radius: 5px;
+    width: 4vw;
+}

@@ -1,0 +1,37 @@
+@media screen and (max-width: 375px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+    }
+
+
+    .section-A, .section-F{
+        width: 100vw;
+        height: 25vh;
+        background-color: #e2772b;
+    }
+
+    .section-B{
+        width: 100vw;
+        height: 35vh;
+        background-color: #372be2;
+    }
+
+    .section-C, .section-D, .section-E{
+        width: 40vw;
+        height: 15vh;
+        background-color: #e22bd9;
+        border: 2px solid grey;
+        margin-left: 10px;
+    }
+
+    .Box-main{
+        flex-direction: column;
+        width: 100vw;
+        height: 75vh;
+    }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeWork4_4</title>
+    <link rel="stylesheet" href="style4_4_form.css">
+</head>
+<body>
+<div class="form_4_4">
+    <h1>Заповніть поля анкети</h1>
+    <form class="form">
+        <label for="firstname">Ваше ім'я
+        <input type="text" id="firstname" name="username" required>
+        </label>
+
+        <label for="lastname">Ваше прізвище
+        <input type="text" id="lastname" name="username2" required>
+        </label>
+
+        <label class="gender">Ваша стать:
+        <label>Жіноча<input type="radio" name="gender" value="female"></label>
+        <label>Чоловіча<input type="radio" name="gender" value="male"></label>
+        </label>
+
+        <label>Послугами якої сотової компанії Ви користуєтесь:
+            <div class="operators">
+            <label><input type="checkbox" name="KyivStar">KyivStar</label>
+            <label><input type="checkbox" name="MTS">MTS</label>
+            <label><input type="checkbox" name="Life:)">Life:)</label>
+            <label><input type="checkbox" name="Utel">Utelr</label>
+            </div>
+        </label>
+
+        <label>
+        <input type="submit" value="Надіслати анкету">
+        <input type="reset" value="Очистити бланк">
+        </label>
+    </form>
+</div>
+</body>
+</html>

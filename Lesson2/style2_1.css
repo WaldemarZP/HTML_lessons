@@ -1,0 +1,48 @@
+.box1{
+    font-family: 'Rubik Pixels', sans-serif;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+.box2{
+    font-family: 'Sedgwick Ave Display', sans-serif;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+.box3{
+    font-family: 'Dancing Script', sans-serif;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+.box4{
+    font-family: 'Fjalla One', sans-serif;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+.box5{
+    font-family: 'Indie Flower', sans-serif;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+
+.size200{
+    width: 200px;
+    height: 200px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    /*margin-top: 85px;*/
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

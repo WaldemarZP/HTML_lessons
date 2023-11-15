@@ -1,0 +1,32 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+div{
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin: 16px 60px 16px 60px;
+}
+
+#top{
+    background-color: #e22b31;
+}
+
+#middle{
+    background-color: #54e1cb;
+}
+
+#bottom{
+    background-color: #83e22b;
+}
